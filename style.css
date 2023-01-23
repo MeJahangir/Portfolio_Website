@@ -1,0 +1,9 @@
+/* Css style for portfolio website */
+.dropdown-divider{
+    color: red;
+}
+.dropdown-item :hover{
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+}
