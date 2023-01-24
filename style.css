@@ -17,3 +17,14 @@
     border: 2px solid gray;
     border-radius: 0px 0px 10px 10px;
 }
+
+#images{
+    width: 400px;
+    height: 450px;
+}
+
+.text-style{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
