@@ -20,6 +20,9 @@
 .dark-light{
     margin: 20px;
 }
+.name{
+  font-family: "Sofia", sans-serif;
+}
 #images{
     width: 300px;
     height: 350px;
@@ -92,9 +95,10 @@
 
 
   /* responsive portfolio website */
-  @media(max-width: 576px){
+  @media screen and (max-width: 576px){
     #images{
-      margin-left: 110px;
+      margin:auto;
+      display:block;
       border-radius: 50%;
       border: 1px solid red;
       background-color: green;
