@@ -7,14 +7,13 @@
     color: black;
     font-weight: bold;
 }
-.number1{
+.number2{
     color: red;
 }
-.number2{
-    color: green;
-}
 .dropdown-menu{
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
+    border: none;
+    overflow: hidden;
     border-radius: 0px 0px 10px 10px;
 }
 .dark-light{
@@ -125,3 +124,4 @@
       margin-top:200px;
     }
   }
+ 
