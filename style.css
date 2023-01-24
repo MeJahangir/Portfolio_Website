@@ -24,8 +24,14 @@
     text-align: center;
     align-items: center;
 }
-
-
+.icon i{
+  padding: 20px;
+  margin-top: 15px;
+}
+#twitter i{
+  font-size: 20px;
+  color: red;
+}
 /* dark and light */
 * {
     box-sizing: border-box;
