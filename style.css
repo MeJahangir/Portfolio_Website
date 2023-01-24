@@ -95,21 +95,33 @@
 
 
   /* responsive portfolio website */
+  /* small device  */
   @media screen and (max-width: 576px){
     #images{
       margin:auto;
       display:block;
+      margin-top: 20px;
       border-radius: 50%;
       border: 1px solid red;
-      background-color: green;
+      background-color: gray;
+    }
+    .responsive-nav{
+
     }
   }
-
   @media screen and (min-width: 577px) and (max-width: 767px){
     #images{
-      margin-left: 110px;
+      margin: auto;
+      display: block;
+      margin-top: 20px;
       border-radius: 50%;
       border: 1px solid green;
       background-color: red;
+    }
+  }
+  /* Mediam device responsive */
+  @media (max-width: 420px){
+    .responsive-nav{
+      margin-top:200px;
     }
   }
