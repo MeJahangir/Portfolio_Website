@@ -88,3 +88,24 @@
   .fa-sun {
     color: yellow;
   }
+
+
+
+  /* responsive portfolio website */
+  @media(max-width: 576px){
+    #images{
+      margin-left: 110px;
+      border-radius: 50%;
+      border: 1px solid red;
+      background-color: green;
+    }
+  }
+
+  @media screen and (min-width: 577px) and (max-width: 767px){
+    #images{
+      margin-left: 110px;
+      border-radius: 50%;
+      border: 1px solid green;
+      background-color: red;
+    }
+  }
