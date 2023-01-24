@@ -2,14 +2,6 @@
 .dropdown-divider{
     color:gray;
 }
-.dropdown-item :hover{
-    background-color: gray;
-    color: black;
-    font-weight: bold;
-}
-.number2{
-    color: red;
-}
 .dropdown-menu{
     /* border: 2px solid gray; */
     border: none;
@@ -42,7 +34,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     transition: background 0.2s linear;
   }
@@ -124,4 +115,3 @@
       margin-top:200px;
     }
   }
- 
