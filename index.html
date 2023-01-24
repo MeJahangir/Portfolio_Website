@@ -12,14 +12,16 @@
     <!-- css link add -->
     <link rel="stylesheet" href="style.css">
     <!-- icone link add  -->
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <!-- portflio main container add -->
-    <div class="container">
+    <!-- portflio main container add -->
+    <div class="container-fluid">
         <!-- Navbar add -->
-        <nav class="navbar navbar-expand-lg navbar-light mt-3 sticky-top">
-            <div class="container-fluid">
+        <div class="container mb-4">
+          <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+            <div class="container">
               <a class="navbar-brand fs-1 " href="#">Menu</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -62,24 +64,28 @@
                 </ul>
                 <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button onclick="myFunction()" class="btn btn-outline-success" type="submit">Search</button>
+                  <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
               </div>
             </div>
-        </nav>
-        <!-- Home area add -->
-        <div class="container" id="home">
-            <div class="row p-4">
-              <div class="col col-sm-12 col-md-12 col-lg-6 text-style">
-                <div class="info">
-                    <h1><span class="fw-bold">Hello...!</span> <br>I'M JAHANGIR ALAM <span class="text-danger"> <br> Web Designer</span></h1>
-                </div>
-              </div>
-              <div class="col col-sm-12 col-md-12 col-lg-6">
-                <img id="images" src="images/joy.png" alt="jahangir">
+          </nav>
+        </div>
+        <!-- Home contant add -->
+        <div class="container">
+          <div class="row">
+            <div class="col m-auto">
+              <div class="info text-center">
+                <h1><span class="fw-bold">Hello...!</span> <br>I'M JAHANGIR ALAM <span class="text-danger"> <br> Web Designer</span></h1>
               </div>
             </div>
+            <div class="col m-auto">
+              <div class="img-me">
+                <img id="images" src="images/zoy.png" alt="jahangir">
+              </div>
+            </div>
+          </div>
         </div>
+  
     </div>
   <script src="script.js"></script>
 </body>
