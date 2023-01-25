@@ -17,41 +17,42 @@
 </head>
   <body>
     <!-- portflio main container add -->
-    <div class="container">
+    <div class="container-fluid">
       <!-- Navbar add -->
       <div class="responsive-nav mb-4">
         <nav class="navbar navbar-expand-lg navbar-light sticky-top">
           <div class="container">
-            <a class="navbar-brand fw-bold text-warning" href="#">Menu</a>
+            <a class="navbar-brand fs-2 fw-bold text-warning " href="#">Menu</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-style">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link mt-3 " aria-current="page" href="#home">Home</a>
+                </li>
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#home">Home</a>
-                  </li>
-                    <li class="nav-item">
-                    <a class="nav-link  " href="https://google.com" target="_blank">About</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Contact..
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#"><span class="number2">Call: 01909597475,01770985860</span></a></li>
-                      <!-- Dropdown menu horizontal add -->
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#"><span class="number2">Email: jahangiralam85860@gmail.com</span></a></li>
-                      <!-- Dropdown menu horizontal add -->
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item number2" href="#">Address: Level:03, House:1005,<br><span>Avenue:11,Road:09, Dhaka 1216</span></a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link  " href="https://youtube.com" aria-disabled="true">Disabled</a>
-                  </li>
-                  <!-- dark and light display -->
+                  <a class="nav-link mt-3 " href="https://google.com" target="_blank">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mt-3 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact..
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#"><span class="number2">Call: 01909597475,01770985860</span></a></li>
+                    <!-- Dropdown menu horizontal add -->
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#"><span class="number2">Email: jahangiralam85860@gmail.com</span></a></li>
+                    <!-- Dropdown menu horizontal add -->
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item number2" href="#">Address: Level:03, House:1005,<br><span>Avenue:11,Road:09, Dhaka 1216</span></a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mt-3 " href="https://youtube.com" aria-disabled="true">Disabled</a>
+                </li>
+                <!-- dark and light display -->
+                <div>
                   <div class="dark-light">
                     <input type="checkbox" class="checkbox" id="checkbox">
                     <label for="checkbox" class="label">
@@ -60,11 +61,14 @@
                       <div class='ball'>
                     </label>
                   </div>
-                </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+                </div>
+              </ul>
+              <div>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
           </div>
         </nav>
@@ -77,7 +81,7 @@
                 <h1 class="name"><span>Hello...!</span> <br><span>I'M JAHANGIR ALAM</span> <span class="text-danger"> <br> Web Designer</span></h1>
               </div>
               <!-- parsonal info link add -->
-              <div class="icon-area text-center icon ">
+              <div class="icon-area text-center icon fs-2">
                 <a href="https://twitter.com/home" target="blank"><i style="color: blue;" class="fab fa-twitter"></i></a>
                 <a href="https://github.com/jahangiralam85860" target="blank"><i style="color: black;" class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/md-jahangir-alam-4a206b24b/?trk=onboarding-landing" target="_blank"><i style="color: blue;" class="fab fa-linkedin"></i></a>
@@ -92,7 +96,16 @@
               </div>
           </div>
         </div>  
-      <!-- Expariance add -->
+    </div>
+    <div class="container">
+      <div class="d-flex p-4 ">
+        <div class="row justify-contant-center ">
+          <div class="jahangir col-12 col-sm-12 col-md-6 col-lg-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officia quam non quis reiciendis soluta architecto temporibus, consequatur eaque, labore tempore. Ipsum quia amet, dicta ducimus nisi illo culpa recusandae.</div>
+          <div class="jahangir col-12 col-sm-12 col-md-6 col-lg-3">jahangir</div>
+          <div class="jahangir col-12 col-sm-12 col-md-6 col-lg-3">moni</div>
+          <div class="jahangir col-12 col-sm-12 col-md-6 col-lg-3">rofiq</div>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
