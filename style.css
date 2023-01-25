@@ -8,6 +8,9 @@
     overflow: hidden;
     border-radius: 0px 0px 10px 10px;
 }
+.nav-margin{
+  margin-bottom: 20px;
+}
 .menu-style{
   margin: 20px;
 }
@@ -47,7 +50,7 @@
     transition: background 0.2s linear;
   }
   body.dark {
-    background-color: #d6d9e1;
+    background-color: #bbbdc3;
   }
   .checkbox {
     opacity: 0;
@@ -57,7 +60,7 @@
   .label {
     width: 42px;
     height: 20px;
-    background-color:rgb(32, 32, 29);
+    background-color: rgb(130, 68, 184);
     display: flex;
     border-radius:50px;
     align-items: center;
@@ -93,7 +96,12 @@
     font-size: 12px;
   }
 
-
+/* expariance area */
+.ex-img img{
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+}
 
   /* responsive portfolio website */
   /* small device  */
@@ -105,9 +113,6 @@
       border-radius: 50%;
       border: 1px solid red;
       background-color: gray;
-    }
-    .responsive-nav{
-
     }
   }
   @media screen and (min-width: 577px) and (max-width: 767px){
@@ -123,6 +128,6 @@
   /* Mediam device responsive */
   @media (max-width: 420px){
     .responsive-nav{
-      margin-top:200px;
+    
     }
   }
