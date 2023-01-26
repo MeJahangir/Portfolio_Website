@@ -8,6 +8,9 @@
     overflow: hidden;
     border-radius: 0px 0px 10px 10px;
 }
+.top-nav{
+  margin-top: -8px;
+}
 .nav-margin{
   margin-bottom: 20px;
 }
@@ -32,7 +35,7 @@
 }
 .icon i{
   padding: 15px;
-  margin-top: 15px;
+  margin-top: 15px; 
 }
 #twitter i{
   font-size: 20px;
