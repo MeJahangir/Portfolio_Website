@@ -127,7 +127,7 @@
   margin-top: -30px;
 }
 .title{
-  background-color: rgb(135, 135, 145);
+  background-color: rgb(198, 198, 209);
   padding: 0px 10px 4px 10px;
   border-radius: 20px;
 }
@@ -146,6 +146,9 @@
       border: 1px solid red;
       background-color: gray;
     }
+    .buttons{
+      margin: 8px;
+    }
     
   }
   @media screen and (min-width: 577px) and (max-width: 767px){
@@ -157,10 +160,19 @@
       border: 1px solid green;
       background-color: red;
     }
+    .buttons{
+      margin: 8px;
+    }
   }
   /* Mediam device responsive */
   @media (max-width: 420px){
-    .responsive-nav{
-    
+    .buttons{
+      margin: 8px;
     }
   }
+/* large device responsive */
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .buttons{
+    margin:8px;
+  }
+}
