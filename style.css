@@ -97,10 +97,26 @@
   }
 
 /* expariance area */
+.card{
+  box-shadow: 10px;
+}
+.ex-img{
+  text-align: center;
+  margin-top: 25px;
+  border-bottom: 1px solid gray;
+}
 .ex-img img{
   width: 60px;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 30px;
+}
+.card-title{
+  text-align: center;
+  margin-top: -30px;
+}
+.title{
+  background-color: blue;
+  padding: 0px 10px 4px 10px;
+  border-radius: 20px;
 }
 
   /* responsive portfolio website */
