@@ -145,9 +145,6 @@
       .buttons{
         margin: 8px;
       }
-      .menu{
-        padding-top: 20px;
-      }
     }
   /* small device  */
   @media screen and (max-width: 576px){
@@ -162,9 +159,6 @@
     .buttons{
       margin: 8px;
     }
-    .menu{
-      padding-top: 20px;
-    }
   }
   @media screen and (min-width: 577px) and (max-width: 767px){
     #images{
@@ -178,16 +172,10 @@
     .buttons{
       margin: 8px;
     }
-    .menu{
-      padding-top: 20px;
-    }
   }
 /* large device responsive */
 @media screen and (min-width: 768px) and (max-width: 991px){
   .buttons{
     margin:8px;
   }
-  /* .menu{
-    padding-top: 20px;
-  } */
 }
