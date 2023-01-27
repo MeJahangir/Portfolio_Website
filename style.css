@@ -11,9 +11,9 @@
 .top-nav{
   margin-top: -8px;
 }
-.nav-margin{
+/* .nav-margin{
   margin-bottom: 20px;
-}
+} */
 .menu-style{
   margin: 20px;
 }
@@ -187,7 +187,7 @@
   .buttons{
     margin:8px;
   }
-  .menu{
+  /* .menu{
     padding-top: 20px;
-  }
+  } */
 }
