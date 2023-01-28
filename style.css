@@ -11,14 +11,15 @@
 .top-nav{
   margin-top: -8px;
 }
-/* .nav-margin{
-  margin-bottom: 20px;
-} */
+
 .menu-style{
   margin: 20px;
 }
 .dark-light{
     margin: 20px;
+}
+#home{
+  padding-top: 100px;
 }
 .name{
   font-family: "Sofia", sans-serif;
@@ -102,6 +103,7 @@
 /* expariance area */
 .expariance{
   text-align: center;
+  padding-top: 100px;
   margin-top: 40px;
   margin-bottom: 30px;
 }
@@ -137,7 +139,7 @@
 
 /* project add  */
 .project{
-  margin-top: 70px;
+  padding-top: 100px;
 }
 .project-images img{
   width: 287px;
