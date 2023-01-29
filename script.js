@@ -16,7 +16,7 @@ function doDate() {
   var months = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
   var now = new Date();
 
-  str += days[now.getDay()] + "<br> " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear() + " " + now.getHours() +":" + now.getMinutes() + ":" + now.getSeconds();
+  str += days[now.getDay()] + "<br> " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear() + " " + now.getHours() % 12 +":" + now.getMinutes() + ":" + now.getSeconds();
     document.getElementById("demo").innerHTML = str;
 }
 setInterval(doDate, 1000);
