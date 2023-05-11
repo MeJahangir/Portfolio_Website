@@ -8,12 +8,12 @@
     overflow: hidden;
     border-radius: 0px 0px 10px 10px;
 }
+/* hover text decoraton none  */
+.t-decoration{
+  text-decoration: none;
+}
 .top-nav{
   margin-top: -8px;
-}
-
-.menu-style{
-  margin: 20px;
 }
 .dark-light{
     margin: 20px;
